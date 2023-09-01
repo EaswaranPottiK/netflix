@@ -1,0 +1,51 @@
+body{
+    background-image: url(./background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+button {
+    background-color: red; 
+    border: none;/* otherwise a black border will be there */
+    color: white;
+    padding: 8px 20px;  /* for gap between sign in and boder of the button*/
+    text-align: center;
+    display: inline;
+    font-size: 16px;
+    margin: 30px 4px 6px ;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+
+.flex-container {
+    display: flex;
+}
+
+img{
+
+    float: initial; 
+    padding-top: 23px; 
+    padding-left: 300px;
+    display: inline;
+    padding-right: 1000px;
+}
+
+#first_h1{
+    color: white; 
+    font-size: 55px; 
+    text-align: center; 
+    margin-top: 21%;
+}
+
+.sech1{
+    color: white; 
+    text-align: center; 
+    font-weight: 400;
+}
+
+h2{
+    color: white; 
+    text-align: center;
+    font-weight: 400;
+}
